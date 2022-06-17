@@ -16,31 +16,29 @@ const Template: ComponentStory<typeof MyLabel> = (args) => <MyLabel { ...args } 
 export const Basic = Template.bind({});
 Basic.args = {
     size: 'normal',
-    label: 'No Label',
-    allCaps: false,
-    color: 'primary'
+    allCaps: false
 }
 
 export const AllCaps = Template.bind({});
 AllCaps.args = {
     size: 'normal',
-    label: 'No Label',
-    allCaps: true,
-    color: 'primary'
+    allCaps: true
 }
 
 export const Secondary = Template.bind({});
 Secondary.args = {
     size: 'normal',
-    label: 'No Label',
-    allCaps: false,
     color: 'secondary'
 }
 
 export const Tertieary = Template.bind({});
 Tertieary.args = {
     size: 'normal',
-    label: 'No Label',
-    allCaps: false,
     color: 'tertiary'
+}
+
+export const CustomFontColor = Template.bind({});
+CustomFontColor.args = {
+    size: 'normal',
+    fontColor: '#5517ac'
 }
