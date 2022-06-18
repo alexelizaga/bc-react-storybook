@@ -18,8 +18,8 @@ yarn add brocode-resource
 
 ## Semantic release
 
-Patch Fix Release --> fix: stop graphite breaking when too much pressure applied
+v1.0.1 Patch Fix Release &#8594; fix: stop graphite breaking when too much pressure applied
 
-Minor Feature Release --> feat: add 'graphiteWidth' option
+v1.1.0 Minor Feature Release &#8594; feat: add 'graphiteWidth' option
 
-Major Breaking Release --> perf: remove graphiteWidth option
+v2.0.0 Major Breaking Release &#8594; perf: remove graphiteWidth option
